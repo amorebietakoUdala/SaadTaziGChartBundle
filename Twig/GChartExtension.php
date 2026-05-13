@@ -12,6 +12,8 @@ use Twig\Environment;
  */
 class GChartExtension extends AbstractExtension {
 
+    protected array $resources;
+    
     /**
      * @param array $resources a list of resources (see Resources/g_chart.xml)
      */
